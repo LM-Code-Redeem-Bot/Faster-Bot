@@ -6,7 +6,7 @@ const port = 3000
 
 app.get('/', (req, res) => {
     axios
-    .get('https://brassy-pacific-lunaria.glitch.me/')
+    .get('https://sand-balanced-cathedral.glitch.me/')
     .then(res => {
       console.log(`statusCode: ${res.status}`);
       console.log(res);
